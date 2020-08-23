@@ -38,8 +38,12 @@ end
 
 def add_s(array)
   array.each do |element|
-    !(element[1] == element)
-    element + "s"
+    if element[1] == element
+      element
+    else 
+      element + "s"
+      
+    
     
     
 end
