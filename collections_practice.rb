@@ -30,4 +30,8 @@ def kesha_maker(array)
 end
 array
 end
-kesha_maker
+
+
+kesha_maker(array)
+array.scan(/.{2}|.+/).join("$")
+end
