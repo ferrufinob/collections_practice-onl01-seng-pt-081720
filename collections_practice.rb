@@ -23,16 +23,6 @@ end
 
 
 def kesha_maker(array)
-   i = 0
-  while i < array.length 
-  yield(array[i])
-   i = i + 1
-end
-array
-end
-
-
-kesha_maker(array)
 array.each do |item|
   item[2] = "$"
 end
