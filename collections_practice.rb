@@ -29,4 +29,4 @@ end
 end
 
 def find_a(array)
-  array.select 
+  array.select {|letter| letter.
