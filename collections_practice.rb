@@ -37,7 +37,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each  |element|
+  array.map do  |element|
     if array[1] == element
       element
     else 
