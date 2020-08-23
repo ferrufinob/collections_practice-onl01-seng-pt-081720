@@ -29,4 +29,4 @@ end
 end
 
 def find_a(array)
-  array.select {|letter| letter.
+  array.select {|letter| letter.start_with?("a")
