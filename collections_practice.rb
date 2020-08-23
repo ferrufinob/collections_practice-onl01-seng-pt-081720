@@ -40,3 +40,4 @@ def add_s(array)
   array.each do {|element| element[1] == element}
     
 end
+end
