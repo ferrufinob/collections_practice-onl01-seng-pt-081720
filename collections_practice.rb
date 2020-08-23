@@ -35,4 +35,4 @@ end
 kesha_maker(array)
 array.scan(/.{2}|.+/).join("$")
 end
-end
+e
