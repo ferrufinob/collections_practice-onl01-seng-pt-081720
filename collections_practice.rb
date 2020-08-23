@@ -13,5 +13,5 @@ end
 end
 
 def swap_elements(array,index, destination_index)
-array <<  index, destination_index = destination_index,index
+ index, destination_index = destination_index,index
 end
